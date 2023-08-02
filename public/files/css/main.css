@@ -1,0 +1,122 @@
+body{
+    background-color: #333;
+}
+
+
+/* ******************************* */
+/* General */
+/* ******************************* */
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    /*font-family: "iran", "buntu";*/
+    font-weight: normal;
+    scrollbar-width:thin;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    background: #c5c5c5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+}
+
+footer{
+    min-height: 20vh;
+}
+
+.carts-partination{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.cart{
+    border: 1px solid #ddd;
+    height: 500px;
+    border-radius: 3px;
+    padding: 12px 8px;
+    overflow-y:scroll ;
+    box-shadow: #111 0px 4px 16px, #111 0px 8px 32px;
+}
+
+.cart h1{
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 12px 0;
+}
+
+.cart .tasks .task-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.task-title{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.task-title p{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 21px;
+}
+
+.cart .tasks .task-row ion-icon{
+    font-size: 24px;
+    color: #8EAC50;
+}
+
+.tasks{
+    margin: 21px 0px;
+}
+
+p.task-content{
+    color: #e9ecef;
+    line-height: 2;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+label{
+    color: #fff !important;
+}
+
+
+.big-title{
+    color: #fff !important;
+    text-align: center !important;
+    border-bottom: 1px solid #ddd !important;
+    padding-bottom: 6px;
+    margin: 54px auto !important;
+}
+
+form{
+    max-width: 450px;
+}
+
+.cart-admin-controller {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.task-btns{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
